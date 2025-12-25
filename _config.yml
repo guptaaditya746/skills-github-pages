@@ -1,3 +1,4 @@
+# --- Basic Site Settings ---
 title: "Aditya's Blog"
 email: guptaaditya746@gmail.com
 description: >-
@@ -5,12 +6,70 @@ description: >-
   Focused on anomaly detection, XAI, and deep learning.
 baseurl: ""
 url: "https://guptaaditya746.github.io"
-twitter_username: guptaaditya746
-github_username:  guptaaditya746
+
+# --- Author and Social ---
+author: "Aditya Gupta" # You can change this
+twitter:
+  username: guptaaditya746
+github:
+  username: guptaaditya746
+social:
+  name: Aditya Gupta
+  email: guptaaditya746@gmail.com
+  links:
+    - https://twitter.com/guptaaditya746
+    - https://github.com/guptaaditya746
+    - https://www.linkedin.com/in/your-linkedin-profile/ # Please update this
+
+# --- Build Settings ---
 remote_theme: cotes2020/jekyll-theme-chirpy
-# remote_theme: alshedivat/al-folio
-#remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
+
+# --- Theme Settings ---
+# For more details, see: https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Configurations
+theme_mode: # "light" | "dark" | "sync"
+# The theme mode will be automatically selected based on the system settings.
+# You can override this by setting it to "light" or "dark".
+
+# --- Home Page Settings ---
+# The number of posts to show on the home page
+paginate: 10
+
+# --- Post Settings ---
+# Show the table of contents on posts
+toc: true
+
+# --- Search Settings ---
+# Enable the search functionality
+search: true
+
+# --- Comments Settings ---
+# To enable comments, you need to configure one of the providers below.
+# For this example, we'll set up Giscus.
+# 1. Install the Giscus app on your repository: https://github.com/apps/giscus
+# 2. Fill in the following values.
+comments:
+  provider: "giscus" # or "disqus"
+  giscus:
+    repo: "" # e.g., "username/repo-name"
+    repo_id: ""
+    category: ""
+    category_id: ""
+    mapping: "pathname"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    theme: "light"
+    lang: "en"
+
+# --- Analytics ---
+# To enable analytics, you need to configure one of the providers below.
+google_analytics:
+  id: "" # e.g., "G-XXXXXXXXXX" or "UA-XXXXXXXXX-X"
+
+# --- Favicon ---
+# The path to your favicon.ico file.
+# It should be placed in the root of your repository.
+favicon: "favicon.ico"

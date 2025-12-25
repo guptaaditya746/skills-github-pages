@@ -3,6 +3,7 @@ layout: post
 title:  "Why Black Box Models Are Dangerous: Intro to XAI"
 date:   2025-01-05 09:00:00 +0100
 categories: [AI, Research]
+tags: [XAI, Explainable AI, Black Box Models]
 ---
 
 Deep learning models are often called "black boxes" because even their creators don't fully understand *why* they make specific decisions. In safety-critical fields like aerospace (where I work at DLR), this is unacceptable.
