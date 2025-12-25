@@ -7,7 +7,10 @@ baseurl: ""
 url: "https://guptaaditya746.github.io"
 twitter_username: guptaaditya746
 github_username:  guptaaditya746
-theme: minima
+remote_theme: cotes2020/jekyll-theme-chirpy
+# remote_theme: alshedivat/al-folio
+#remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
