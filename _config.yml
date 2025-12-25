@@ -1,13 +1,32 @@
 title: "Aditya's Blog"
-email: guptaaditya746@gmail.com
+tagline: "Machine Learning & XAI"
 description: >-
   Machine learning researcher at DLR in Jena, Germany. 
   Focused on anomaly detection, XAI, and deep learning.
-baseurl: ""
 url: "https://guptaaditya746.github.io"
+baseurl: ""
+
+# The Theme
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# User Settings
+github_username: guptaaditya746
 twitter_username: guptaaditya746
-github_username:  guptaaditya746
-theme: minima
+email: guptaaditya746@gmail.com
+
+# Localization
+lang: en
+timezone: Europe/Berlin
+
+# Appearance
+theme_mode: light # [light, dark]
+
+# Plugins needed for Chirpy
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+
+# Pagination Settings
+paginate: 10
