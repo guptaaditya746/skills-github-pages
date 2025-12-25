@@ -1,1 +1,13 @@
+title: "Aditya's Blog"
+email: guptaaditya746@gmail.com
+description: >-
+  Machine learning researcher at DLR in Jena, Germany. 
+  Focused on anomaly detection, XAI, and deep learning.
+baseurl: ""
+url: "https://guptaaditya746.github.io"
+twitter_username: guptaaditya746
+github_username:  guptaaditya746
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
